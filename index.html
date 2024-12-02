@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ReStyle - Marketplace de seconde main</title>
-  <!-- Custom CSS -->
+  <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -15,10 +15,10 @@
 
 </head>
 <body>
-<!-- Navbar -->
+<!-------------------------------------------- Navbar -------------------------------------------->
 <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
   <div class="container">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="index.html">
       <i class="fas fa-shopping-bag text-success"></i>
       <span class="ms-2">ReStyle</span>
     </a>
@@ -42,14 +42,14 @@
           <a class="nav-link" href="#"><i class="fas fa-user"></i></a>
         </li>
         <li class="nav-item">
-          <a class="btn btn-success rounded-pill" href="#">Se connecter</a>
+          <a class="btn btn-success rounded-pill" href="html/login.html">Se connecter</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
 
-<!-- Hero Section -->
+<!---------------------------------------------- Hero Section ------------------------------------------>
 <section class="hero bg-light py-5 mt-5">
   <div class="container">
     <div class="row align-items-center">
@@ -68,7 +68,7 @@
   </div>
 </section>
 
-<!-- Featured Products -->
+<!----------------------------------------------- LES PRODUITS ------------------------------------>
 <section id="featured" class="py-5">
   <div class="container">
     <h2 class="text-center mb-5" data-aos="fade-up">Articles en vedette</h2>
@@ -84,11 +84,52 @@
         </div>
       </div>
       <!-- Repeat for more products -->
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100 shadow-sm">
+          <img src="img/aymane-pic-demi-zippe-compresser.png" class="card-img-top" alt="Product">
+          <div class="card-body">
+            <h5 class="card-title">Sweat Demi Zippé</h5>
+            <p class="card-text text-muted">Bon état</p>
+            <p class="card-text fw-bold text-success">120 €</p>
+          </div>
+        </div>
+      </div>
+      <!-- Repeat for more products -->
+
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100 shadow-sm">
+          <img src="img/pull-rl-americ.jpg" class="card-img-top" alt="Product">
+          <div class="card-body">
+            <h5 class="card-title">Pull Ralph Lauren</h5>
+            <p class="card-text text-muted">Neuf avec étiquette</p>
+            <p class="card-text fw-bold text-success">400 €</p>
+          </div>
+        </div>
+      </div>
+      <!-- Repeat for more products -->
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100 shadow-sm">
+          <img src="img/luffy-outfit.jpg" class="card-img-top" alt="Product">
+          <div class="card-body">
+            <h5 class="card-title">Short Et Chemise Rouge</h5>
+            <p class="card-text text-muted">Neuf avec étiquette</p>
+            <p class="card-text fw-bold text-success">400 €</p>
+          </div>
+        </div>
+      </div>
+      <!-- Repeat for more products -->
     </div>
+  </div>
+  <div class="btnvoir">
+  <div class="row align-items-center">
+  <button class="btn btn-outline-success rounded-pill ms-2" type="submit">
+    En voir plus
+  </button>
+  </div>
   </div>
 </section>
 
-<!-- Categories -->
+<!----------------------------------------------------------------------------------- Categories ------------------------------------>
 <section class="bg-light py-5">
   <div class="container">
     <h2 class="text-center mb-5" data-aos="fade-up">Catégories</h2>
@@ -121,7 +162,7 @@
   </div>
 </section>
 
-<!-- Newsletter -->
+<!--------------------------------------------------- Newsletter ---------------------------------------------------------------->
 <section class="bg-success text-white py-5">
   <div class="container">
     <div class="row justify-content-center text-center">
@@ -141,7 +182,9 @@
   </div>
 </section>
 
-<!-- Footer -->
+
+
+<!----------------------------------------------- Footer -------------------------------------------------------->
 <footer class="bg-light py-5">
   <div class="container">
     <div class="row g-4">
@@ -164,9 +207,9 @@
       <div class="col-md-4">
         <h3>Suivez-nous</h3>
         <div class="social-links">
-          <a href="#" class="text-muted me-3"><i class="fab fa-facebook fa-lg"></i></a>
-          <a href="#" class="text-muted me-3"><i class="fab fa-instagram fa-lg"></i></a>
-          <a href="#" class="text-muted"><i class="fab fa-twitter fa-lg"></i></a>
+          <a target="_blank" href="https://www.facebook.com/groups/160405144475799/?locale=fr_FR" class="text-muted me-3"><i class="fab fa-facebook fa-lg"></i></a>
+          <a target="_blank" href="https://www.instagram.com/vinted/" class="text-muted me-3"><i class="fab fa-instagram fa-lg"></i></a>
+          <a target="_blank" href="https://x.com/vintedfrance" class="text-muted"><i class="fab fa-twitter fa-lg"></i></a>
         </div>
       </div>
     </div>
@@ -174,6 +217,13 @@
     <p class="text-center text-muted">&copy; 2024 ReStyle. Tous droits réservés.</p>
   </div>
 </footer>
+
+
+
+
+<!--------------------------------------------------------------JAVASCRIPT-------------------------------------------->
+
+
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

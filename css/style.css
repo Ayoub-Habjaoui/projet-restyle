@@ -13,6 +13,8 @@
 .hero {
   padding-top: 6rem;
   padding-bottom: 6rem;
+  height: 100vh;
+  background-color: gray;
 }
 
 /* Product cards */
@@ -89,4 +91,37 @@
   .newsletter input {
     min-width: auto;
   }
+}
+
+ :root {
+   --bg-color: #ffffff;
+   --text-color: #000000;
+ }
+
+.dark-mode {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.navbar {
+  background-color: var(--bg-color);
+}
+
+.card, .btn {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.btn-outline-secondary {
+  color: var(--text-color);
+  border-color: var(--text-color);
+}
+
+.btnvoir{
+  padding: 2rem;
 }
