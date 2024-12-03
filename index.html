@@ -20,8 +20,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
   <div class="container">
     <a class="navbar-brand" href="index.html">
-      <i class="fas fa-shopping-bag text-success"></i>
-      <span class="ms-2">ReStyle</span>
+      <img class="logo" src="img/image-restyle.jpg" alt="restyle image">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
@@ -29,7 +28,9 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <form class="d-flex mx-auto" style="max-width: 500px;">
         <div class="input-group">
-          <input type="search" class="form-control rounded-pill" placeholder="Rechercher...">
+          <label>
+            <input type="search" class="form-control rounded-pill" placeholder="Rechercher...">
+          </label>
           <button class="btn btn-outline-success rounded-pill ms-2" type="submit">
             <i class="fas fa-search"></i>
           </button>
@@ -37,10 +38,10 @@
       </form>
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fas fa-heart"></i></a>
+          <a class="nav-link" href="html/favoris.html"><i class="fas fa-heart"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fas fa-user"></i></a>
+          <a class="nav-link" href="html/login.html"><i class="fas fa-user"></i></a>
         </li>
         <li class="nav-item">
           <a class="btn btn-success rounded-pill" href="html/login.html">Se connecter</a>
@@ -81,7 +82,7 @@
             <h5 class="card-title">Veste en jean vintage</h5>
             <p class="card-text text-muted">Bon état</p>
             <p class="card-text fw-bold text-success">89.99 €</p>
-            <a href="#" class="btn btn-outline-success rounded-pill ms-2">Voir Plus</a>
+            <a href="html/annoncedetaille.html" class="btn btn-outline-success rounded-pill ms-2">En savoir Plus</a>
           </div>
         </div>
       </div>
@@ -93,7 +94,7 @@
             <h5 class="card-title">Sweat Demi Zippé</h5>
             <p class="card-text text-muted">Bon état</p>
             <p class="card-text fw-bold text-success">120 €</p>
-            <a href="#" class="btn btn-outline-success rounded-pill ms-2">Voir Plus</a>
+            <a href="html/annoncedetaille.html" class="btn btn-outline-success rounded-pill ms-2">En Savoir Plus</a>
           </div>
         </div>
       </div>
@@ -106,7 +107,7 @@
             <h5 class="card-title">Pull Ralph Lauren</h5>
             <p class="card-text text-muted">Neuf avec étiquette</p>
             <p class="card-text fw-bold text-success">400 €</p>
-            <a href="#" class="btn btn-outline-success rounded-pill ms-2">Voir Plus</a>
+            <a href="html/annoncedetaille.html" class="btn btn-outline-success rounded-pill ms-2">En Savoir Plus</a>
           </div>
         </div>
       </div>
@@ -118,7 +119,7 @@
             <h5 class="card-title">Short Et Chemise Rouge</h5>
             <p class="card-text text-muted">Neuf avec étiquette</p>
             <p class="card-text fw-bold text-success">400 €</p>
-            <a href="html/annoncedetaille.html" class="btn btn-outline-success rounded-pill ms-2">Voir Plus</a>
+            <a href="html/annoncedetaille.html" class="btn btn-outline-success rounded-pill ms-2">En Savoir Plus</a>
           </div>
         </div>
       </div>
@@ -137,28 +138,31 @@
 <!----------------------------------------------------------------------------------- Categories ------------------------------------>
 <section class="bg-light py-5">
   <div class="container">
-    <h2 class="text-center mb-5" data-aos="fade-up">Catégories</h2>
+    <h2 class="text-center mb-5">Catégories</h2>
     <div class="row g-4">
       <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
         <div class="category-card">
           <a href="html/catalogue-produit.html">
-            <img src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=500" alt="Vêtements">
-            <div class="category-overlay">
-              <h3>Vêtements</h3>
+          <img src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=500" alt="Vêtements">
+          <div class="category-overlay">
+            <h3>Vêtements</h3>
+          </div>
           </a>
+
         </div>
       </div>
-    </div>
 
-    <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-      <div class="category-card">
-        <a href="" >
-          <img src="https://images.unsplash.com/photo-1556906781-9a412961c28c?auto=format&fit=crop&w=500" alt="Accessoires">
-          <div class="category-overlay">
-            <h3>Accessoires</h3>
-        </a>
-      </div>
-    </div>
+
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="category-card">
+          <a href="html/catalogue-produit-deco.html">
+            <img src="https://images.unsplash.com/photo-1556906781-9a412961c28c?auto=format&fit=crop&w=500" alt="Déco">
+            <div class="category-overlay">
+              <h3>Accessoire</h3>
+        </div>
+          </a>
+
+        </div>
   </div>
 
       <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
@@ -167,8 +171,9 @@
            <img src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=500" alt="Déco">
           <div class="category-overlay">
             <h3>Déco</h3>
-         </a>
           </div>
+         </a>
+
         </div>
       </div>
     </div>
@@ -206,16 +211,16 @@
       <div class="col-md-4">
         <h3>À propos</h3>
         <ul class="list-unstyled">
-          <li><a href="#" class="text-decoration-none text-muted">Qui sommes-nous</a></li>
+          <li><a target="_blank" href="https://x.com/vintedfrance" class="text-decoration-none text-muted">Qui sommes-nous</a></li>
           <li><a href="#" class="text-decoration-none text-muted">Comment ça marche</a></li>
-          <li><a href="#" class="text-decoration-none text-muted">Blog</a></li>
+          <li><a href="html/contact.html" class="text-decoration-none text-muted">Blog</a></li>
         </ul>
       </div>
       <div class="col-md-4">
         <h3>Aide</h3>
         <ul class="list-unstyled">
-          <li><a href="#" class="text-decoration-none text-muted">FAQ</a></li>
-          <li><a href="#" class="text-decoration-none text-muted">Contact</a></li>
+          <li><a href="html/contact.html" class="text-decoration-none text-muted">FAQ</a></li>
+          <li><a href="html/contact.html" class="text-decoration-none text-muted">Contact</a></li>
           <li><a href="#" class="text-decoration-none text-muted">Conditions d'utilisation</a></li>
         </ul>
       </div>
