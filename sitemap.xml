@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Page d'accueil -->
+  <url>
+    <loc>http://localhost:63342/projet-restyle/index.html</loc>
+    <lastmod>2024-12-04</lastmod>
+    <priority>1.0</priority>
+    <changefreq>daily</changefreq>
+  </url>
+
+  <!-- Pages principales -->
+  <url>
+    <loc>http://localhost:63342/projet-restyle/html/catalogue-produit.html</loc>
+    <lastmod>2024-12-04</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://localhost:63342/projet-restyle/html/catalogue-produit-accessoire.html</loc>
+    <lastmod>2024-12-04</lastmod>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://localhost:63342/projet-restyle/html/catalogue-produit-deco.html</loc>
+    <lastmod>2024-12-04</lastmod>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Pages de détails produits -->
+  <url>
+    <loc>http://localhost:63342/projet-restyle/html/annoncedetaille.html</loc>
+    <lastmod>2024-12-04</lastmod>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Pages d'information -->
+  <url>
+    <loc>http://localhost:63342/projet-restyle/html/mentions-legale.html</loc>
+    <lastmod>2024-12-04</lastmod>
+    <priority>0.4</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://localhost:63342/projet-restyle/html/contact.html</loc>
+    <lastmod>2024-12-04</lastmod>
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+</urlset>

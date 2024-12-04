@@ -1,5 +1,13 @@
-# www.robotstxt.org/
-
-# Allow crawling of all content
+# Autoriser tous les robots à explorer le site
 User-agent: *
-Disallow:
+
+# Bloquer l'accès aux répertoires sensibles ou non pertinents
+Disallow: /html/login.html
+Disallow: /html/favoris.html
+Disallow: /html/mentions-legale.html
+
+# Permettre l'accès à toutes les autres pages
+Allow: /
+
+# Indiquer le chemin vers le sitemap pour améliorer l'indexation
+Sitemap: https://www.votredomaine.com/sitemap.xml

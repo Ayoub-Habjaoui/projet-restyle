@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ReStyle - Marketplace de seconde main</title>
+
+  <!-------------------------------------- Bootstrap CSS ---------------------------------------------------------->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!------------------------------------- AOS CSS ------------------------------------------------------------------>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!------------------------------------------------------------ CSS ------------------------------------------------>
+
+  <link rel="stylesheet" href="../style.css">
+
+<!------------------------------------------------ FIN CSS PERSO ----------------------------------------->
+</head>
+
+<body>
+<!------------------------------------------------- Navbar --------------------------------------------------------->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="../index.html">
+      <img class="logo" src="../img/image-restyle.jpg" alt="restyle image">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <form class="d-flex mx-auto" style="max-width: 500px;">
+        <div class="input-group">
+          <label>
+            <input type="search" class="form-control rounded-pill" placeholder="Rechercher...">
+          </label>
+          <button class="btn btn-outline-success rounded-pill ms-2" type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </form>
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="favoris.html"><i class="fas fa-heart"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html"><i class="fas fa-user"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-success rounded-pill" href="login.html">Se connecter</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-----------------------------------------------------NAVBAR FIN --------------------------------------------------->
+<br><br><br><br>
+<!--------------------------------------- Filtrage isotope.js------------------------------------------------->
+<div class="container mt-4">
+  <div class="d-flex justify-content-center gap-3">
+    <button class="btn btn-outline-primary filter-btn" >Tous</button>
+    <button class="btn btn-outline-success filter-btn" >Pull</button>
+    <button class="btn btn-outline-danger filter-btn" >Sweat</button>
+    <button class="btn btn-outline-warning filter-btn" >Pantalon</button>
+  </div>
+</div>
+
+<!--------------------------------------- FIN Filtrage isotope.js------------------------------------------------->
+
+<!--------------------------------------------------------------LISTE PRODUITS-------------------------------------------->
+
+<section id="featured" class="py-5" data-aos="fade-up">
+  <div class="container">
+    <h2 class="text-center mb-5" data-aos="fade-up">Nos produits</h2>
+    <div class="row mt-4">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100" >
+        <div class="card h-100 shadow-sm">
+          <img src="https://images.unsplash.com/photo-1551537482-f2075a1d41f2?auto=format&fit=crop&w=800" class="img-fluid img" alt="Product">
+          <div class="card-body">
+            <h5 class="card-title">Veste en jean vintage</h5>
+            <p class="card-text text-muted">Bon état</p>
+            <p class="card-text fw-bold text-success">89.99 €</p>
+            <a href="annoncedetaille.html" class="btn btn-outline-success rounded-pill ms-2">Voir Plus</a>
+          </div>
+        </div>
+      </div>
+      <!---------------------------------------------- FIN PRODUIT X -------------------------------------->
+
+
+
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100 shadow-sm">
+          <img src="../img/aymane-pic-demi-zippe-compresser.png" class="img-fluid img" alt="Product">
+          <div class="card-body">
+            <h5 class="card-title">Sweat Demi Zippé</h5>
+            <p class="card-text text-muted">Bon état</p>
+            <p class="card-text fw-bold text-success">120 €</p>
+            <a href="annoncedetaille.html" class="btn btn-outline-success rounded-pill ms-2">Voir Plus</a>
+          </div>
+        </div>
+      </div>
+      <!---------------------------------------------- FIN PRODUIT X -------------------------------------->
+
+
+
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100 shadow-sm">
+          <img src="../img/pull-rl-americ.jpg" class="img-fluid" alt="Product">
+          <div class="card-body">
+            <h5 class="card-title">Pull Ralph Lauren</h5>
+            <p class="card-text text-muted">Neuf avec étiquette</p>
+            <p class="card-text fw-bold text-success">400 €</p>
+            <a href="annoncedetaille.html" class="btn btn-outline-success rounded-pill ms-2">Voir Plus</a>
+          </div>
+        </div>
+      </div>
+      <!---------------------------------------------- FIN PRODUIT X -------------------------------------->
+
+
+
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100 shadow-sm">
+          <img src="../img/luffy-outfit.jpg" class="img-fluid" alt="Product">
+          <div class="card-body">
+            <h5 class="card-title">Short Et Chemise Rouge</h5>
+            <p class="card-text text-muted">Neuf avec étiquette</p>
+            <p class="card-text fw-bold text-success">75 000 berries</p>
+            <a href="annoncedetaille.html" class="btn btn-outline-success rounded-pill ms-2">Voir Plus</a>
+          </div>
+        </div>
+      </div>
+      <!---------------------------------------------- FIN PRODUIT X -------------------------------------->
+
+
+
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100 shadow-sm">
+          <img src="../img/pull-lacoste.jpg" class="img-fluid" alt="Product">
+          <div class="card-body">
+            <h5 class="card-title">Pull Lacoste</h5>
+            <p class="card-text text-muted">Neuf avec étiquette</p>
+            <p class="card-text fw-bold text-success">120 €</p>
+            <a href="annoncedetaille.html" class="btn btn-outline-success rounded-pill ms-2">Voir Plus</a>
+          </div>
+        </div>
+      </div>
+      <!---------------------------------------------- FIN PRODUIT X -------------------------------------->
+
+
+
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100 shadow-sm">
+          <img src="../img/sweatshirt-lacoste.jpg" class="img-fluid" alt="Product">
+          <div class="card-body">
+            <h5 class="card-title">Sweat Lacoste</h5>
+            <p class="card-text text-muted">Neuf avec étiquette</p>
+            <p class="card-text fw-bold text-success">90 €</p>
+            <a href="annoncedetaille.html" class="btn btn-outline-success rounded-pill ms-2">Voir Plus</a>
+          </div>
+        </div>
+      </div>
+      <!---------------------------------------------- FIN PRODUIT X -------------------------------------->
+
+
+
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100 shadow-sm">
+          <img src="../img/pull-rl-demi.jpeg" class="img-fluid" alt="Product">
+          <div class="card-body">
+            <h5 class="card-title">Pull Ralph Lauren Zippé</h5>
+            <p class="card-text text-muted">Neuf avec étiquette</p>
+            <p class="card-text fw-bold text-success">220 €</p>
+            <a href="annoncedetaille.html" class="btn btn-outline-success rounded-pill ms-2">Voir Plus</a>
+          </div>
+        </div>
+      </div>
+      <!---------------------------------------------- FIN PRODUIT X -------------------------------------->
+
+
+
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100 shadow-sm">
+          <img src="../img/pull-rl-state-blue.jpg" class="img-fluid" alt="Product">
+          <div class="card-body">
+            <h5 class="card-title">Pull Ralph Lauren Amérique</h5>
+            <p class="card-text text-muted">Neuf avec étiquette</p>
+            <p class="card-text fw-bold text-success">404,95 €</p>
+            <a href="annoncedetaille.html" class="btn btn-outline-success rounded-pill ms-2">Voir Plus</a>
+          </div>
+        </div>
+      </div>
+      <!---------------------------------------------- FIN PRODUIT X -------------------------------------->
+
+
+
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100 shadow-sm">
+          <img src="../img/polo-ralph-lauren-pull-gris.jpg" class="img-fluid" alt="Product">
+          <div class="card-body">
+            <h5 class="card-title">Pull demi zippé RL Gris</h5>
+            <p class="card-text text-muted">Neuf avec étiquette</p>
+            <p class="card-text fw-bold text-success">205 €</p>
+            <a href="annoncedetaille.html" class="btn btn-outline-success rounded-pill ms-2">Voir Plus</a>
+          </div>
+        </div>
+      </div>
+      <!---------------------------------------------- FIN PRODUIT X -------------------------------------->
+
+
+
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100 shadow-sm">
+          <img src="../img/ami-paris-pull-col-roule-navy.jpg" class="img-fluid" alt="Product">
+          <div class="card-body">
+            <h5 class="card-title">Pull Ami Bleu Marine</h5>
+            <p class="card-text text-muted">Neuf avec étiquette</p>
+            <p class="card-text fw-bold text-success">650 €</p>
+            <a href="annoncedetaille.html" class="btn btn-outline-success rounded-pill ms-2">Voir Plus</a>
+          </div>
+        </div>
+      </div>
+      <!---------------------------------------------- FIN PRODUIT X -------------------------------------->
+
+
+
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100 shadow-sm">
+          <img src="../img/pull-ami-blanc.jpg" class="img-fluid" alt="Product">
+          <div class="card-body">
+            <h5 class="card-title">Crop Top Ami</h5>
+            <p class="card-text text-muted">Neuf avec étiquette</p>
+            <p class="card-text fw-bold text-success">399 €</p>
+            <a href="annoncedetaille.html" class="btn btn-outline-success rounded-pill ms-2">Voir Plus</a>
+          </div>
+        </div>
+      </div>
+      <!---------------------------------------------- FIN PRODUIT X -------------------------------------->
+
+
+
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100 shadow-sm">
+          <img src="../img/casablanca-pull.jpg" class="img-fluid" alt="Product">
+          <div class="card-body">
+            <h5 class="card-title">Pull Casablanca</h5>
+            <p class="card-text text-muted">Neuf avec étiquette</p>
+            <p class="card-text fw-bold text-success">750 €</p>
+            <a href="annoncedetaille.html" class="btn btn-outline-success rounded-pill ms-2">Voir Plus</a>
+          </div>
+        </div>
+      </div>
+      <!---------------------------------------------- FIN PRODUIT X -------------------------------------->
+
+
+
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100 shadow-sm">
+          <img src="../img/casablanca-sweat-shirt-graphique.jpg" class="img-fluid" alt="Product">
+          <div class="card-body">
+            <h5 class="card-title">Pull Casablanca Bleu Marine</h5>
+            <p class="card-text text-muted">Neuf avec étiquette</p>
+            <p class="card-text fw-bold text-success">700 €</p>
+            <a href="annoncedetaille.html" class="btn btn-outline-success rounded-pill ms-2">Voir Plus</a>
+          </div>
+        </div>
+      </div>
+      <!---------------------------------------------- FIN PRODUIT X -------------------------------------->
+
+
+
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100 shadow-sm">
+          <img src="../img/doudoune-rl.jpg" class="img-fluid" alt="Product">
+          <div class="card-body">
+            <h5 class="card-title">Doudoune Ralph Lauren Amovible</h5>
+            <p class="card-text text-muted">Neuf avec étiquette</p>
+            <p class="card-text fw-bold text-success">500 €</p>
+            <a href="annoncedetaille.html" class="btn btn-outline-success rounded-pill ms-2">Voir Plus</a>
+          </div>
+        </div>
+      </div>
+      <!---------------------------------------------- FIN PRODUIT X -------------------------------------->
+
+
+
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100 shadow-sm">
+          <img src="../img/moncler-maya.jpg" class="img-fluid " alt="Product">
+          <div class="card-body">
+            <h5 class="card-title">Doudoune Moncler Maya</h5>
+            <p class="card-text text-muted">Neuf avec étiquette</p>
+            <p class="card-text fw-bold text-success">1500 €</p>
+            <a href="annoncedetaille.html" class="btn btn-outline-success rounded-pill ms-2">Voir Plus</a>
+          </div>
+        </div>
+      </div>
+      <!---------------------------------------------- FIN PRODUIT X -------------------------------------->
+
+
+
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100 shadow-sm">
+          <img src="../img/luffy-outfit.jpg" class="img-fluid" alt="Product">
+          <div class="card-body">
+            <h5 class="card-title">Short Et Chemise Rouge</h5>
+            <p class="card-text text-muted">Neuf avec étiquette</p>
+            <p class="card-text fw-bold text-success">Trop Chère</p>
+            <a href="annoncedetaille.html" class="btn btn-outline-success rounded-pill ms-2">Voir Plus
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!--------------------------------------------------------------FIN PRODUITS-------------------------------------------->
+
+<!----------------------------------------------------------------------------------- Categories ------------------------------------>
+<section class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-5" data-aos="fade-up">Catégories</h2>
+    <div class="row g-4">
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="category-card">
+          <a href="catalogue-produit.html">
+            <img src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=500" alt="Vêtements">
+            <div class="category-overlay">
+              <h3>Vêtements</h3>
+
+        </div>
+          </a>
+      </div>
+    </div>
+
+    <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+      <div class="category-card">
+        <a href="catalogue-produit-accessoire.html" >
+          <img src="https://images.unsplash.com/photo-1556906781-9a412961c28c?auto=format&fit=crop&w=500" alt="Accessoires">
+          <div class="category-overlay">
+            <h3>Accessoires</h3>
+
+      </div>
+        </a>
+    </div>
+  </div>
+
+
+  <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+    <div class="category-card">
+      <a href="catalogue-produit-deco.html">
+        <img src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=500" alt="Déco">
+        <div class="category-overlay">
+          <h3>Déco</h3>
+
+    </div>
+      </a>
+  </div>
+  </div>
+  </div>
+  </div>
+</section>
+<!--------------------------------------------------- Newsletter ---------------------------------------------------------------->
+<section class="bg-success text-white py-5">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-6" data-aos="fade-up">
+        <h2>Restez informé</h2>
+        <p>Inscrivez-vous pour recevoir nos dernières nouveautés</p>
+        <form class="row g-3 justify-content-center">
+          <div class="col-auto">
+            <label>
+              <input type="email" class="form-control rounded-pill" placeholder="Votre email">
+            </label>
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-light rounded-pill">S'inscrire</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!---------------------------------------------------  FIN Newsletter  ---------------------------------------------------------------->
+
+
+
+<!----------------------------------------------- Footer -------------------------------------------------------->
+<footer class="bg-light py-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <h3>À propos</h3>
+        <ul class="list-unstyled">
+          <li><a target="_blank" href="https://x.com/vintedfrance" class="text-decoration-none text-muted">Qui sommes-nous</a></li>
+          <li><a href="#" class="text-decoration-none text-muted">Comment ça marche</a></li>
+          <li><a href="contact.html" class="text-decoration-none text-muted">Blog</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h3>Aide</h3>
+        <ul class="list-unstyled">
+          <li><a href="contact.html" class="text-decoration-none text-muted">FAQ</a></li>
+          <li><a href="contact.html" class="text-decoration-none text-muted">Contact</a></li>
+          <li><a href="#" class="text-decoration-none text-muted">Conditions d'utilisation</a></li>
+          <li><a href="#" class="text-decoration-none text-muted">Mentions Légales</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h3>Suivez-nous</h3>
+        <div class="social-links">
+          <a target="_blank" href="https://www.facebook.com/groups/160405144475799/?locale=fr_FR" class="text-muted me-3"><i class="fab fa-facebook fa-lg"></i></a>
+          <a target="_blank" href="https://www.instagram.com/vinted/" class="text-muted me-3"><i class="fab fa-instagram fa-lg"></i></a>
+          <a target="_blank" href="https://x.com/vintedfrance" class="text-muted"><i class="fab fa-twitter fa-lg"></i></a>
+        </div>
+      </div>
+    </div>
+    <hr class="my-4">
+    <p class="text-center text-muted">&copy; 2024 ReStyle. Tous droits réservés.</p>
+  </div>
+</footer>
+
+
+
+
+<!----------------------------------------------- FIN Footer -------------------------------------------------------->
+
+
+
+
+<!--------------------------------------------------------------JAVASCRIPT-------------------------------------------->
+
+
+
+<!------------------------------------------------------ Bootstrap JS --------------------------------------------->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!------------------------------------------ AOS JS --------------------------------------------------->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- Initialize AOS -->
+<script>AOS.init();</script>
+
+
+
+<!-------------------------------------------------------------- FIN JAVASCRIPT-------------------------------------------->
+
+</body>
+</html>
